@@ -17,7 +17,7 @@ import {
 import { Icon, Button, Header, Input } from 'react-native-elements'
 import RNPickerSelect from 'react-native-picker-select';
 import * as ImagePicker from 'expo-image-picker';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import { DrawerActions } from '@react-navigation/native';
 import ActionSheet from "react-native-actions-sheet";
 import i18n from 'i18n-js';

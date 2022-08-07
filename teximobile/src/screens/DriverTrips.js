@@ -5,7 +5,7 @@ import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import { colors } from '../common/theme';
 import i18n from 'i18n-js';
 import { useDispatch, useSelector } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import { Alert } from 'react-native';
 import moment from 'moment/min/moment-with-locales';
 import carImageIcon from '../../assets/images/track_Car.png';

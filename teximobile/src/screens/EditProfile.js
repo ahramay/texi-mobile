@@ -16,7 +16,7 @@ import { colors } from '../common/theme';
 import i18n from 'i18n-js';
 var { height } = Dimensions.get('window');
 import { useSelector, useDispatch } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 
 export default function EditProfilePage(props) {

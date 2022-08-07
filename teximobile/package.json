@@ -46,7 +46,6 @@
     "react-native-dash": "^0.0.11",
     "react-native-elements": "^3.4.2",
     "react-native-gesture-handler": "^2.5.0",
-    "react-native-google-maps-directions": "^2.1.1",
     "react-native-google-places-autocomplete": "^2.4.1",
     "react-native-maps": "^1.1.0",
     "react-native-modal-datetime-picker": "^13.1.2",
@@ -59,7 +58,6 @@
     "react-native-star-rating": "^1.1.0",
     "react-native-vector-icons": "^9.2.0",
     "react-native-web": "0.17.7",
-    "react-native-webview": "^11.23.0",
     "react-redux": "^8.0.2"
   },
   "devDependencies": {

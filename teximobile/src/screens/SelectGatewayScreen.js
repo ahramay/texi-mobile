@@ -1,12 +1,13 @@
-import React, { useState, useEffect,useContext } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { View, StyleSheet, Image, TouchableWithoutFeedback, Text, Alert } from 'react-native';
 import { Header, } from 'react-native-elements';
+
 import i18n from 'i18n-js';
 import { colors } from '../common/theme';
 import PaymentWebView from '../components/PaymentWebView';
 import { ScrollView } from 'react-native-gesture-handler';
 import { useDispatch, useSelector } from 'react-redux';
-import { FirebaseContext } from '';
+import { FirebaseContext } from 'common/src';
 
 export default function SelectGatewayPage(props) {
   const { api, config } = useContext(FirebaseContext);

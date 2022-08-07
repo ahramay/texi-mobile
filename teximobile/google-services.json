@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "817549917593",
+    "firebase_url": "https://maniwebify-67403-default-rtdb.firebaseio.com",
+    "project_id": "maniwebify-67403",
+    "storage_bucket": "maniwebify-67403.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817549917593:android:4fe7dc7f6d101026a92708",
+        "android_client_info": {
+          "package_name": "com.exicube.maniwebify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817549917593-r4vumop63fta7j0d5cnk85nr334d8pf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDODdjiEeugvfeOWf8V1YEaW1vMFLbhVrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817549917593-r4vumop63fta7j0d5cnk85nr334d8pf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

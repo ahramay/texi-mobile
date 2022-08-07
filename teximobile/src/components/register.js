@@ -22,7 +22,7 @@ import * as ImagePicker from 'expo-image-picker';
 import { Ionicons } from '@expo/vector-icons';
 import {useSelector} from 'react-redux';
 import ActionSheet from "react-native-actions-sheet";
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 export default function Registration(props) {
     const { t } = i18n;

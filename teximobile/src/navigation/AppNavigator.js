@@ -16,7 +16,7 @@ import {
     OnlineChat,
     WalletDetails,
     AddMoneyScreen,
-    // SelectGatewayPage,
+    SelectGatewayPage,
     LoginScreen,
     DriverTrips,
     WithdrawMoneyScreen,
@@ -94,7 +94,7 @@ export default function AppContainer() {
                         <Stack.Screen name="RideDetails" component={RideDetails} options={{ headerShown: false }} />
                         <Stack.Screen name="onlineChat" component={OnlineChat} options={{ headerShown: false }} />
                         <Stack.Screen name="addMoney" component={AddMoneyScreen} options={{ headerShown: false }} />
-                        {/* <Stack.Screen name="paymentMethod" component={SelectGatewayPage} options={{ headerShown: false }} /> */}
+                        <Stack.Screen name="paymentMethod" component={SelectGatewayPage} options={{ headerShown: false }} />
                         <Stack.Screen name="withdrawMoney" component={WithdrawMoneyScreen} options={{ headerShown: false }} />
                     </Stack.Group>
                     :

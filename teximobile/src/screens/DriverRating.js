@@ -15,7 +15,7 @@ import { colors } from '../common/theme';
 var { width } = Dimensions.get('window');
 import i18n from 'i18n-js';
 import { useDispatch, useSelector } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import moment from 'moment/min/moment-with-locales';
 
 export default function DriverRating(props) {

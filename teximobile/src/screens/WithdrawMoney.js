@@ -11,7 +11,7 @@ import { Header, Button } from 'react-native-elements';
 import { colors } from '../common/theme';
 import i18n from 'i18n-js';
 import { useSelector,useDispatch } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 export default function WithdrawMoneyScreen(props) {
   const { api } = useContext(FirebaseContext);

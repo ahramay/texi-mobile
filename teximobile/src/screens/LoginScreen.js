@@ -16,7 +16,7 @@ import {
 import MaterialButtonDark from "../components/MaterialButtonDark";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { useDispatch, useSelector } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import { colors } from '../common/theme';
 import { FirebaseRecaptchaVerifierModal } from "expo-firebase-recaptcha";
 import RNPickerSelect from 'react-native-picker-select';

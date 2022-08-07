@@ -7,7 +7,7 @@ import { useSelector } from 'react-redux';
 import i18n from 'i18n-js';
 import moment from 'moment/min/moment-with-locales';
 const devWidth = Dimensions.get("window").width;
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import { DrawerActions } from '@react-navigation/native';
 
 export default function Notifications(props) {

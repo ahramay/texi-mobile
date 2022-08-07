@@ -16,7 +16,7 @@ import {
   Image
 } from 'react-native';
 import i18n from 'i18n-js';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import { useSelector, useDispatch } from 'react-redux';
 
 var { height,width } = Dimensions.get('window');

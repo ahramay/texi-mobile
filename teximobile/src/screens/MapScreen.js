@@ -19,7 +19,7 @@ var { height, width } = Dimensions.get('window');
 import i18n from 'i18n-js';
 import DateTimePickerModal from "react-native-modal-datetime-picker";
 import { useSelector, useDispatch } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import { OptionModal } from '../components/OptionModal';
 import BookingModal from '../components/BookingModal';
 import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';

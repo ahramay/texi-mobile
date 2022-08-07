@@ -17,7 +17,7 @@ import { colors } from '../common/theme';
 var { width } = Dimensions.get('window');
 import { useSelector, useDispatch } from "react-redux";
 import i18n from 'i18n-js';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 export default function SideMenu(props){
 
