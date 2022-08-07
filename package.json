@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "react-native-google-maps-directions": "^2.1.1"
+  }
+}

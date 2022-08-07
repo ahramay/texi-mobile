@@ -1,0 +1,16 @@
+{
+    "app_name": "maniwebify",
+    "app_description": "com.exicube.maniwebify",
+    "app_identifier": "com.maniwebify.app",
+    "ios_app_version": "1.0.0",
+    "android_app_version": 100,
+    "facebookAppId": "12345",
+    "firebaseProjectId": "maniwebify-67403",
+    "googleApiKeys": {
+        "ios": "XXXXXXXXXXXXXXX",
+        "android": "1:817549917593:android:4fe7dc7f6d101026a92708",
+        "web": "1:817549917593:web:4c1a63468eaf8543a92708",
+        "server": "XXXXXXXXXXXXXXX"
+    },
+    "CodeCanyon_Purchase_Code": "f4977597-1000-499e-9bb9-f653f127c611"
+}
