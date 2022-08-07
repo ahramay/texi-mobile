@@ -21,7 +21,7 @@ import * as ImagePicker from 'expo-image-picker';
 import i18n from 'i18n-js';
 var { width, height } = Dimensions.get('window');
 import { useSelector, useDispatch } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import StarRating from 'react-native-star-rating';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import RNPickerSelect from 'react-native-picker-select';

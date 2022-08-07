@@ -4,7 +4,7 @@ import { StyleSheet, View, Alert } from 'react-native';
 import { useSelector } from 'react-redux';
 
 import i18n from 'i18n-js';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 export default function RegistrationPage(props) {
   const { api } = useContext(FirebaseContext);

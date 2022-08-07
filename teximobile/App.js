@@ -13,10 +13,13 @@ import {
   LogBox
 } from "react-native";
 import { Provider } from "react-redux";
-import { FirebaseProvider, store } from "common";
+import {
+  FirebaseProvider,
+  store
+} from 'common/src';
 import AppCommon from './AppCommon';
 import AppCat from './config/AppCat';
-// import { FirebaseConfig } './config/FirebaseConfig';
+import { FirebaseConfig } from './config/FirebaseConfig';
 import { colors } from './src/common/theme';
 
 Notifications.setNotificationHandler({
@@ -98,7 +101,7 @@ export default function App() {
 
   return (
     <Provider store={store}>
-      <FirebaseProvider  appcat={AppCat}>
+      <FirebaseProvider config={FirebaseConfig} appcat={AppCat}>
         <AppCommon>
           <AppContainer />
         </AppCommon>

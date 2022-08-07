@@ -16,7 +16,7 @@ var { width, height } = Dimensions.get('window');
 import { PromoComp } from "../components";
 import i18n from 'i18n-js';
 import { useSelector,useDispatch } from 'react-redux';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 export default function PaymentDetails(props) {
   const { api, appcat } = useContext(FirebaseContext);

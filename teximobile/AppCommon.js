@@ -1,5 +1,5 @@
 import { useState, useContext, useEffect, useRef } from 'react';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext, store } from 'common/src';
 import { useSelector, useDispatch } from 'react-redux';
 import * as TaskManager from 'expo-task-manager';
 import * as Location from 'expo-location';

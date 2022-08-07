@@ -6,7 +6,7 @@ import i18n from 'i18n-js';
 import { useSelector } from 'react-redux';
 import SegmentedControlTab from 'react-native-segmented-control-tab';
 import moment from 'moment/min/moment-with-locales';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 
 export default function RideList(props) {
     const { t } = i18n;

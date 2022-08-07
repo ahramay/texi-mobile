@@ -26,7 +26,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import Polyline from '@mapbox/polyline';
 import getDirections from 'react-native-google-maps-directions';
 import carImageIcon from '../../assets/images/track_Car.png';
-import { FirebaseProvider, store } from "common";
+import { FirebaseContext } from 'common/src';
 import * as ImagePicker from 'expo-image-picker';
 import moment from 'moment/min/moment-with-locales';
 
